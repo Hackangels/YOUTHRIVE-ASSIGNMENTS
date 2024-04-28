@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{ */
+    /* max-width: 120rem; */
+
+
+
+
+nav{
+    background-color: black;
+    font-size: 1rem;
+    margin: auto;
+    text-align: center;
+    min-height: 7vh;
+    padding: 0.3rem;
+    /* max-width: 100%;*/
+    min-width: 200px;
+}
+
+
+.navi a{
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 50%;
+    /* padding: 10px; */
+}
+nav a:hover{
+    text-decoration:underline;
+    font-size: 2rem;
+    color: red;
+}
+
+
+
+@media screen and (min-width: 500px) {
+    nav ul li {
+        display: inline-block;
+         padding: 10px;
+        width: 25% ;
+        font-size: 0.3rem;
+        
+    }
+}
+
+
+ 
+
+html {
+    font-size: 2rem;
+    max-width: 120rem;
+}
+
+main{
+   margin: 0.3rem 1rem;
+/* border: 1px solid red; */
+    max-width: 95%;
+    min-height: 90vh;
+    /* min-width: 200px ; */
+    padding: auto 2rem;
+  
+}
+
+main h1{
+    margin: 0.7em auto;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+h1:hover{
+ text-decoration: underline;
+ color: darkred;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.8em;
+    padding: 1.6rem 1rem;
+    margin: auto;
+    /* text-align: justify; */
+}
+
+@media screen and (max-width: 450px) {
+
+    main h1 {
+        font-size: 0.9rem;
+        width: 70vw;
+        text-align: center;
+        margin: 0.3em auto;
+
+    }
+    main .message {
+        text-align: center;
+        margin: auto;
+        font-size: 0.8em ;
+    }
+
+}
+
+ol li{
+    display: inline-block;
+    
+}
+
+.boxes{
+    margin: 2rem auto;
+    padding: 2rem 0.5rem;
+    text-align: center;
+}
+
+.box1{
+    /* border: 1px solid red; */
+    padding: 1rem 2rem;
+    margin: auto;
+}
+.box2{
+    /* border: 1px solid red; */
+    padding: 1rem 2rem;
+    margin: auto;
+}
+.box3{
+    /* border: 1px solid red; */
+    padding: 1rem 2rem;
+    margin: auto;
+}
+
+@media screen and (max-width: 700px) {
+    ol li {
+        display: block;  
+        padding: auto;
+        margin: auto;   
+    }
+
+    
+}
+
+
+footer{
+    text-align: center;
+    min-height: 2vh;
+    margin: 0.5rem 1rem;
+     padding: auto 3rem;
+    font-size: 0.7rem;
+    
+
+}
+
+footer h2{
+    font-size: 1.2em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    background-color: black;
+    /* border: 5px solid white; */
+    color: white;
+    /* padding: auto 3rem; */
+    padding: 0.5rem auto;
+    
+}
+
+footer p{
+    font-size: 1em ;
+    margin: auto 0;
+}
+
+ @media screen and (max-width: 450px){
+
+   footer p{
+        font-size: 0.8em;
+        /* padding: auto; */
+        
+    }
+    footer h2{
+        /* margin: 0.5rem auto; */
+        /* padding: auto; */
+        font-size: 1em;
+        
+    }
+    
+} 
