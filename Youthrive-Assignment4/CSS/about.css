@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 120rem;
+    font-size: 1.5rem;
+}
+
+.sectionabout{
+    border: 1px solid red;
+    background-color: #01010129;
+background-size: cover;
+height: 90vh;
+display: flex;
+align-items: center;
+justify-content: center ;
+}
+
+
+.sectionabout ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 12rem;
+}
+ ul li .box1{
+    border: 1px solid red;
+ }
+
